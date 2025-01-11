@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etTypeColis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type de colis" />
+
+        <EditText
+            android:id="@+id/etPoids"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Poids (kg)"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etDimensions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dimensions (m³)"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etAdresseDepart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adresse de départ"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etAdresseArrivee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adresse d'arrivée"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etInstructionsSpecifiques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Instructions spécifiques (facultatif)"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etDateLivraison"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date de livraison prévue (dd/MM/yyyy)"
+            android:inputType="date"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnSubmitCommand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Créer la commande"
+            android:layout_marginTop="16dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

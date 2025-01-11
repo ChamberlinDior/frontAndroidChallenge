@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Carte Jeu</string>
+    <string-array name="statut_compte_array">
+        <item>ACTIF</item>
+        <item>SUSPENDU</item>
+        <item>DESACTIVE</item>
+    </string-array>
+</resources>

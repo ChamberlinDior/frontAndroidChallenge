@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Champ Nom -->
+        <EditText
+            android:id="@+id/etNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Champ Prénom -->
+        <EditText
+            android:id="@+id/etPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prénom"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Champ Email -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Champ Téléphone -->
+        <EditText
+            android:id="@+id/etTelephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Téléphone"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Champ Pseudo -->
+        <EditText
+            android:id="@+id/etPseudo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pseudo"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Champ Mot de Passe -->
+        <EditText
+            android:id="@+id/etMotDePasse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mot de Passe"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Spinner Statut du Compte -->
+        <Spinner
+            android:id="@+id/spStatutCompte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Champ Adresse Expédition -->
+        <EditText
+            android:id="@+id/etAdresseExpedition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adresse d'Expédition"
+            android:inputType="textPostalAddress"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Champ Adresse Destination -->
+        <EditText
+            android:id="@+id/etAdresseDestination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adresse de Destination"
+            android:inputType="textPostalAddress"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Champ Type de Colis -->
+        <EditText
+            android:id="@+id/etTypeColis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type de Colis"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Champ Instructions Spéciales -->
+        <EditText
+            android:id="@+id/etInstructionsSpeciales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Instructions Spéciales"
+            android:inputType="textMultiLine"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edittext_background" />
+
+        <!-- Bouton Soumettre -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Créer Client"
+            android:background="@color/primary"
+            android:textColor="@color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Barre de Progression -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

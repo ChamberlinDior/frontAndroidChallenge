@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Bouton pour accéder à la liste des clients -->
+    <Button
+        android:id="@+id/btnViewClients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voir la liste des clients" />
+
+    <!-- Bouton pour accéder à la création de clients -->
+    <Button
+        android:id="@+id/btnCreateClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Créer un client" />
+
+    <!-- Bouton pour accéder à la création d'envoi de colis -->
+    <Button
+        android:id="@+id/btnCreateShipment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Créer une commande d’envoi de colis" />
+</LinearLayout>
